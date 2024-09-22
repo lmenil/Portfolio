@@ -1,8 +1,8 @@
 /* Services.css */
 /* File: Services.css
-   Student Name: Your Name
-   Student ID: YourID
-   Date: YYYY-MM-DD
+   Student Name: Lorenzo Jr Menil
+   Student ID: 301341544
+   Date: 2024-09-21
 */
 
 .services {
@@ -19,6 +19,7 @@
   
   .service-card {
     background-color: #f9f9f9;
+    color: black;
     width: 250px;
     border-radius: 10px;
     padding: 20px;
@@ -26,8 +27,8 @@
   }
   
   .service-card img {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
     margin-bottom: 15px;
   }

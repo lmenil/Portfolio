@@ -12,36 +12,27 @@ import './App.css';
 
 function App() {
   return ( 
-    <div className="App">
     <Router> 
-      <div>
-
+      <div className="App">
       <Layout/>
       {/* <Home/>
       <About/>
       <Projects/>
       <Services/>
       <Contact/> */}
-        {/* <div className="content"> */}
+        <div className="content">
           <Routes>
           
-            <Route path="/" element={<Home />}></Route>
-            <Route path="*" element={<div>404 Not Found</div>}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-            <Route path="/services" element={<Services />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            {/* <Route path="/about" element={<About />}</Route>
-            <Route path="/projects" element={<Projects />}</Route>
-            <Route path="/services" element={<Services />}</Route>
-            <Route path="/contact" element={<Contact />}</Route> */}
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
-        {/* </div> */}
+        </div>
         {/* <Footer /> */}
-      
       </div>
     </Router>
-    </div>
   );
 }
 
