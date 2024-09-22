@@ -1,0 +1,26 @@
+/* Home.css */
+/* File: Home.css
+   Student Name: Your Name
+   Student ID: YourID
+   Date: YYYY-MM-DD
+*/
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .home .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home .btn:hover {
+    background-color: #cf8500;
+  }
+  

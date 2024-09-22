@@ -1,0 +1,36 @@
+/* About.css */
+/* File: About.css
+   Student Name: Your Name
+   Student ID: YourID
+   Date: YYYY-MM-DD
+*/
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .resume-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .resume-link:hover {
+    background-color: #555;
+  }
+  
