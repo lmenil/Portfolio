@@ -12,6 +12,7 @@ import './App.css';
 
 function App() {
   return ( 
+    
     <Router> 
       <div className="App">
       <Layout/>
@@ -21,6 +22,7 @@ function App() {
       <Services/>
       <Contact/> */}
         <div className="content">
+        <BrowserRouter basename="/portfolio">
           <Routes>
           
             <Route exact path="/" element={<Home />} />
@@ -29,6 +31,7 @@ function App() {
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
+          </BrowserRouter>
         </div>
         {/* <Footer /> */}
       </div>
