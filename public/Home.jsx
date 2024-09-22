@@ -6,9 +6,9 @@
 */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Home.css';
-import enzo from '../assets/enzo.jpg';
-import Layout from '../components/Layout';
+import '../src/styles/home.css';
+import enzo from '../src/assets/enzo.jpg';
+
 
 
 const Home = () => {
