@@ -6,7 +6,7 @@
 */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../src/styles/home.css';
+import '../src/styles/Home.css';
 import enzo from '../src/assets/enzo.jpg';
 
 
